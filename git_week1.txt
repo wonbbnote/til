@@ -20,13 +20,25 @@
 *깃으로 원격repo와 로컬repo가 연결(브랜치 트래킹)된 것처럼 사용할 수 있음
 *로컬repo는 내가 어떤 원격repo와 연결되어 있는지 정보를 가짐(원격 repo는 정보x) -> 로컬기준으로 동작 이해(push/pull)*보통 수동으로 연결
 *원격repo에 있는 프로젝트를 로컬 repo로 다운로드하는 개념: clone(클론, 복제)
+
+-첫 연결
 (1) 원격repo 만들기 - 깃헙 사이트에서 new버튼(Create new repository)
 (2) 소스트리에서 연결하기 -> 설정 - 원격 - 추가 - 원격repo주소 붙여넣기 (*원격이름은 관행적으로 origin이라 적음) *브랜치 이름을 master -> main으로 바꾸기(왜하는지는 모르겠음)
+
+- 파일 push
 (3) 로컬repo에 있는 파일 원격repo에 푸시하기 -> 히스토리나 main브랜치 선택 -> 푸시버튼 누르기 -> 푸시? 체크박스 누르고 푸쉬! -> 깃헙 들어가서 확인! -> commits누르면 히스토리 확인가능
-(4) 깃헙에서 파일 수정 - 파일 선택하고 펜 아이콘 누르기 -> 수정후 커밋 메시지 작성후 commitchange
+
+-파일 pull
+(4) 깃헙에서 파일 수정 - 파일 선택하고 펜 아이콘 누르기 -> 수정후 커밋 메시지 작성후 commit change 버튼 누르기
 (5) 소스트리에서 PULL 버튼 누르기
-(6) 클론하기 - 원격repo의 파일을 내컴퓨터에 가져올 공간만들기 -> 클론할 리포지토리의 주소 -> 코드 초록색 버튼 HTTPs 복사 -> 소스트리가서 newTab - clone누르고 리포지토리 주소와 저장할 로컬 폴더 지정후 클론!
-(7) 원격 repo 깃헙에서 없애는 방법 - 깃헙 페이지 settings - options - DangerZone에 있는 delete this repository - user이름/repository명 형식으로 적고 I understand the consequences 버튼 누르면 삭제됨
+
+- 파일 clone
+(6) 원격repo의 파일을 내컴퓨터에 가져올 공간만들기(폴더 생성) 
+-> 클론할 리포지토리의 주소 복사(코드 초록색 버튼 HTTPs 복사)
+-> 소스트리가서 newTab - clone누르고 리포지토리 주소와 저장할 로컬 폴더 지정후 클론!
+
+- 깃헙의 원격repo 지우기
+(7) 깃헙 페이지 settings - options - DangerZone에 있는 delete this repository - user이름/repository명 형식으로 적고 I understand the consequences 버튼 누르면 삭제됨
 
 *개념지도 그려보기( + 키워드)
 *에러노트 사용하기
